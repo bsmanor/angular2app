@@ -2,7 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { PlaylistComponent } from './playlist/playlist.component';
 import { FormComponent } from './form/form.component';
-import {NavbarComponent} from "./navbar/navbar.component";
+import {NavbarComponent} from './navbar/navbar.component';
 
 const appRoutes: Routes = [
     {path: '', component: NavbarComponent},

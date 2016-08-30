@@ -9,14 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var playlist_1 = require("./playlist");
+var playlist_1 = require('./playlist');
 var PlaylistComponent = (function () {
     function PlaylistComponent() {
         this.categories = ['Transactions', 'Credits-Refunds', 'Module Batch'];
         this.transactions = ['How To Set New Transaction'];
         this.creditsRefunds = ['Credit', 'Refund'];
         this.moduleBatch = ['Importing transactions'];
-        this.playlist = playlist_1.Playlist();
+        this.playlist = new playlist_1.Playlist();
     }
     PlaylistComponent = __decorate([
         core_1.Component({
