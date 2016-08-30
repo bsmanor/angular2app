@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {Playlist} from "./playlist";
+import { Playlist } from './playlist';
 
 @Component({
     selector: 'playlist-component',
@@ -11,8 +11,6 @@ export class PlaylistComponent {
     creditsRefunds = ['Credit', 'Refund'];
     moduleBatch = ['Importing transactions'];
     
-    playlist = Playlist();
-
-    
+    playlist = new Playlist();
 
 }
